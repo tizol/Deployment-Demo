@@ -24,10 +24,6 @@
 Networking -> Domains -> Click loop icon to view records
 <img src="img/record.png">
 
-### Step 4: SFTP into your IP address
-    root@11.22.33.44.55
-    Entered password when asked.
-
 ### Step 5: Install [ meteor up ](https://github.com/arunoda/meteor-up)
     npm install -g mup
 
