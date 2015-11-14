@@ -1,11 +1,9 @@
 # Deploying Meteor Apps on Digital Ocean
 
-### Step 1: Sign up For a Digital Ocean Account
-<a href="https://www.digitalocean.com/?refcode=2200d2dd5c1b">
-Get Free $10 Digital Ocean with this referral link.</a>
+#### Step 1: Sign up For a Digital Ocean Account 
+[Get Free $10 Digital Ocean with this referral link ](https://www.digitalocean.com/?refcode=2200d2dd5c1b)
 
-
-Create a Droplet and Choose Ubuntu 14.04 X64</h3>
+Choose Ubuntu 14.04 X64
 <img src="img/droplet.png">
 
 ### Step 2: Configure your domain
