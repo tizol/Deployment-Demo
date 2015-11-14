@@ -7,9 +7,9 @@
 <img src="img/droplet.png">
 
 ### Step 2: Change your Domain Name Server (DNS)
-    * ns1.digitalocean.com
-    * ns2.digitalocean.com
-    * ns3.digitalocean.com
+    ns1.digitalocean.com
+    ns2.digitalocean.com
+    ns3.digitalocean.com
 
 ### Check that your DNS has changed:
 
