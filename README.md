@@ -1,38 +1,36 @@
 # Deploying Meteor Apps on Digital Ocean
 
-<h2>Step 1: Sign up For a Digital Ocean Account</2>
-<h3>
-    <a href="https://www.digitalocean.com/?refcode=2200d2dd5c1b">
-    Get Free $10 Digital Ocean with this referral link.</a>
-</h3>
+### Step 1: Sign up For a Digital Ocean Account
+<a href="https://www.digitalocean.com/?refcode=2200d2dd5c1b">
+Get Free $10 Digital Ocean with this referral link.</a>
 
-<h3>Create a Droplet and Choose Ubuntu 14.04 X64</h3>
+
+Create a Droplet and Choose Ubuntu 14.04 X64</h3>
 <img src="img/droplet.png">
 
-<h2>Step 2: Configure your domain<h2>
+### Step 2: Configure your domain
 Change your Domain Name Server (DNS) from your provider
-ns1.digitalocean.com
-ns2.digitalocean.com
-ns3.digitalocean.com
+    ns1.digitalocean.com
+    ns2.digitalocean.com
+    ns3.digitalocean.com
 
 check that your DNS has changed:
     $ whois nameofdomain.com
 
 
-<h2>Step 3: Add Domain and Record on Digital Ocean<h2>
-<h3>Add domain</h3>
+### Step 3: Add Domain and Record on Digital Ocean
+### Add domain
 <img src="img/domain.png">
 
-<h3>Add record </h3>
+### Add record
 Networking -> Domains -> Click loop icon to view records
 <img src="img/record.png">
 
-<h2>Step 4: SFTP into your IP address </h2>
+### Step 4: SFTP into your IP address
     root@11.22.33.44.55
     Entered password when asked.
 
-<h2>Step 5: Install <a href="https://github.com/arunoda/meteor-up">
- meteor up </a> </h2>
+### Step 5: Install [ meteor up ](https://github.com/arunoda/meteor-up)
     npm install -g mup
 
 ### Creating a Meteor Up Project
@@ -124,7 +122,5 @@ This will bundle the Meteor project and deploy it to the server.
 
 
 <h3> Follow me on twitter or visit my blog<h3>
-<ul>
   <li><a href="https://twitter.com/tizolj"> tizolj</a></li>
   <li><a href="http://josetizol.com/"> josetizol.com</a></li>
-</ul>
