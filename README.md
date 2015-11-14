@@ -3,15 +3,16 @@
 #### Step 1: Sign up For a Digital Ocean Account
 [Get Free $10 Digital Ocean with this referral link ](https://www.digitalocean.com/?refcode=2200d2dd5c1b)
 
-Choose Ubuntu 14.04 X64
+### Create a Droplet and Choose Ubuntu 14.04 X64
 <img src="img/droplet.png">
 
 ### Step 2: Change your Domain Name Server (DNS)
-    ns1.digitalocean.com
-    ns2.digitalocean.com
-    ns3.digitalocean.com
+    * ns1.digitalocean.com
+    * ns2.digitalocean.com
+    * ns3.digitalocean.com
 
 ### Check that your DNS has changed:
+
     whois nameofdomain.com
 
 
